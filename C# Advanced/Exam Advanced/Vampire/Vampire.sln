@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vampire", "Vampire.csproj", "{6EF22778-5415-4E81-B3B3-59540A575FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Warships", "..\02. Warships\02. Warships.csproj", "{EA9800F0-71B7-4BF1-845B-29B07294B15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF22778-5415-4E81-B3B3-59540A575FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF22778-5415-4E81-B3B3-59540A575FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF22778-5415-4E81-B3B3-59540A575FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF22778-5415-4E81-B3B3-59540A575FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9800F0-71B7-4BF1-845B-29B07294B15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9800F0-71B7-4BF1-845B-29B07294B15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9800F0-71B7-4BF1-845B-29B07294B15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9800F0-71B7-4BF1-845B-29B07294B15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B84E553-815D-4C48-BFAD-780F0089547D}
+	EndGlobalSection
+EndGlobal
