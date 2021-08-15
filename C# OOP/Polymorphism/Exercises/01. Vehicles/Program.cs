@@ -8,14 +8,18 @@ namespace Vehicles
         static void Main(string[] args)
         {
 
-            var line = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
+            var line = LineRead();
             var car = new Car(double.Parse(line[1]), double.Parse(line[2]));
-            line = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
+            line = LineRead();
             var truck = new Truck(double.Parse(line[1]), double.Parse(line[2]));
-            int x = int.Parse(Console.ReadLine());
-            for (int i = 0; i < x; i++)
+            int nLines = int.Parse(Console.ReadLine());
+            for (int i = 0; i < nLines; i++)
             {
-                line = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
+                line = LineRead();
+                // line[0]= cmd
+                // line [1] = type 
+                // line [2] = value;
+
                 var value = double.Parse(line[2]);
                 switch (line[0])
                 {
@@ -45,6 +49,11 @@ namespace Vehicles
             Console.WriteLine($"Car: {car.FuelQuantity:f2}");
             Console.WriteLine($"Truck: {truck.FuelQuantity:f2}");
 
+        }
+
+        private static string[] LineRead()
+        {
+            return Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
         }
     }
 }

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Vehicles
+﻿namespace Vehicles
 {
-    public class Truck:Vehicles
+    public class Truck:Vehicle
     {
         private const double AirCond = 1.6;
         public Truck(double fuelQuantity, double fuelConsumption) : base(fuelQuantity, fuelConsumption)
