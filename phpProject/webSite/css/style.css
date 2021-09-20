@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background: #222;
+    font-weight: 300;
+}
+.Logo
+{
+    float: left;
+    width: 120px;
+    height: 110px;
+
+}
+nav{
+    float: top;
+    margin: auto;
+
+
+}
+nav li{
+position: relative;;
+    display:inline-block;
+    margin-left: 70px ;
+    padding-top: 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container
+{
+   text-align: center;
+    background: aqua;
+    float: top  ;
+    width: 80%;
+    height: 110px;
+    margin: 0 auto;
+
+}
+
+nav a {
+    color: #444;
+border-style: solid;
+    border-radius: 7px;
+    background: #dadad0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #000;
+}
+nav a::before{
+    content:' ';
+    display: block;
+    height: 6px;
+    background: #444;
+    position: absolute;
+    top:0 ;
+    width: 0%;
+    transition:all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width: 100%;
+}
+
+
+.wrapper
+{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+.index-intro
+{
+    position: relative;;
+    display:inline-block;
+    margin-left: 70px ;
+    padding-top: 10px;
+    background: aqua;
+}
+h2
+{
+    background: blueviolet;
+}
+.index-categories-list
+{
+
+    display:inline-block;
+    background: brown;
+}
+footer{
+    background: cadetblue;
+
+}
+
+.signUpForm p{
+    background: whitesmoke;
+}
