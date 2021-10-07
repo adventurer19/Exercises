@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;1,600;1,700&family=Lato&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@1,300&display=swap');
+html{
+    font-family: Raleway, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+}
+h1,h2{
+    font-family: Great Vibes, cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.box{
+    list-style: square;
+}
+.circle{
+    list-style: disc;
+}
+.emptyCircle{
+    list-style:circle ;
+}

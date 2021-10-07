@@ -1,0 +1,11 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 40px 25px;
+}
+
+.icons{
+    list-style: none;
+}
+li{
+    font-size: 10px;
+}

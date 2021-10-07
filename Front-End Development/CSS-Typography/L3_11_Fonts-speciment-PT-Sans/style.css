@@ -1,0 +1,19 @@
+html{
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1,h2{
+
+    font-weight: bold;
+    line-height: 1.2;
+}
+.box{
+    list-style: square;
+}
+.circle{
+    list-style: disc;
+}
+.emptyCircle{
+    list-style:circle ;
+}

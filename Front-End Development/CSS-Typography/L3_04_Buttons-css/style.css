@@ -1,0 +1,41 @@
+body{
+ background: white;
+}
+
+article{
+ padding: 15px;
+ margin: 10px;
+}
+.button{
+ background: rgb(251,251,251);
+ border:2px solid rgb(51,51,51);
+ border-radius: 90px;
+ text-decoration: none;
+ cursor: pointer;
+color: #474747 ;
+ font-size: 15px;
+ font-weight: bold;
+ outline: none;
+
+
+}
+h2,.button{
+ padding: 10px;
+ margin: 10px;
+}
+.hover{
+ color:rgb(51,51,51);
+}
+.fill{
+ background-color: rgb(51,51,51);
+ color: rgb(251,251,251)
+}
+.button.hover:hover{
+ cursor: pointer;
+ background-color: rgb(251,251,251);
+ border : 1px solid rgb(0,102,0);
+}
+.fill.button.hover:hover{
+ background: rgb(0,102,0);
+ color:rgb(251,251,251);
+}

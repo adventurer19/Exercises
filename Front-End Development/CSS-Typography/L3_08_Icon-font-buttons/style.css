@@ -1,0 +1,16 @@
+@import url("https://kit.fontawesome.com/fb32864f63.js");
+.click{
+    background-color: green;
+}
+.email{
+    background-color: darkorange;
+}
+a{
+    text-decoration: none ;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 6px;
+}
+body{
+    padding: 40px;
+}
