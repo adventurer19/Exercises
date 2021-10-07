@@ -1,0 +1,24 @@
+body{
+    background: #eeeeee;
+}
+section
+{
+    max-width: 1200px;
+    margin:  30px;
+}
+ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin:25px;
+    padding:15px;
+max-width: 304px;
+
+}
+img{
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    padding: 10px ;
+    width: 100%;
+
+}
